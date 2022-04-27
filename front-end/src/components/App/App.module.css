@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem 0;
 }
 
 .logo {
@@ -27,7 +28,7 @@
 .routes li {
   list-style: none;
   font-size: 1.25rem;
-  border: 1px solid blueviolet;
+  border: 1px solid black;
   padding: .5rem 1rem;
   border-radius: 3px;
   transition: all .25s ease-in-out;
@@ -35,7 +36,7 @@
 
 .routes li a {
   text-decoration: none;
-  color: blueviolet;
+  color: black;
   transition: all .25s ease-in-out;
 }
 
@@ -44,7 +45,7 @@
 }
 
 .routes li:hover {
-  background: blueviolet;
+  background: black;
 }
 .routes li:hover a {
   color: white;

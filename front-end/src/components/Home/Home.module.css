@@ -22,15 +22,13 @@
 }
 
 .welcomeMessage a {
-  color: blueviolet;
   font-weight: bold;
   text-decoration: none;
-
+  color: black;
 }
 
 .name {
   font-weight: bold;
-  color: blueviolet;
 }
 
 .services {
@@ -49,4 +47,53 @@
   height: 100%;
   background: rgba(255, 255, 255, .7);
   border-radius: 3px;
+  padding: 2rem;
+}
+
+.serviceTitle {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.serviceDescription {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+.serviceSecondaryBtn, .serviceBtnPrimary {
+  cursor: pointer;
+  padding: 1rem 3rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.serviceBtnPrimary {
+  background: black;
+  color: white;
+}
+
+.serviceSecondaryBtn {
+  background: rgb(214, 211, 211);
+  color: black;
+}
+
+.rideInputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.rideInputs input {
+  margin-bottom: .75rem;
+  outline: none;
+  border: none;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, .2);
 }
