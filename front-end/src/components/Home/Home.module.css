@@ -1,0 +1,52 @@
+.container {
+  height: 89vh;
+  margin: 0 -10vw;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.welcomeMessage {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  background: rgba(255, 255, 255, .7);
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: 0 0 10px gray;
+  font-size: 2rem;
+}
+
+.welcomeMessage a {
+  color: blueviolet;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.name {
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.services {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  top: 25%;
+  left: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.service {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, .7);
+  border-radius: 3px;
+}

@@ -1,0 +1,124 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  position: realtive;
+}
+
+.error {
+  position: absolute;
+  width: 500px;
+  padding: 3rem;
+  background: white;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  margin: 0 auto;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+
+.oauthButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2.5rem 0;
+}
+
+.oauthButtons button {
+  cursor: pointer;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background: white;
+  border-radius: 3px;
+}
+
+button.google {
+  border: 1px solid #DB4437;
+  color: #DB4437;
+  transition: all .15s ease;
+}
+button.google:hover {
+  background: #DB4437;
+  color: white;
+}
+
+button.facebook {
+  border: 1px solid #4267B2;
+  color: #4267B2;
+  transition: all .15s ease;
+}
+button.facebook:hover {
+  background: #4267B2;
+  color: white;
+}
+
+.form {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.formInput {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.formInput input {
+  padding: 1rem;
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  font-size: 1.25rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
+
+.formInput label {
+  position: absolute;
+  color: gray;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: all .2s ease;
+  font-weight: 600;
+}
+
+.formInput > input:focus {
+  border-color: rgb(28, 63, 28);
+}
+
+.formInput > input:focus ~ label, .formInput > input:valid ~ label {
+  color: rgb(28, 63, 28);
+  top: -30%;
+  left: 0;
+}
+
+.submit {
+  width: 60%;
+  padding: 1rem;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background: blueviolet;
+  color: white;
+  border-radius: 3px;
+  transition: all .2s ease;
+}
+.submit:hover {
+  box-shadow: 0 0 5px blueviolet;
+}

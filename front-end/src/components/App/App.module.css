@@ -1,0 +1,51 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 2rem;
+  color: black;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.routes {
+  display: flex;
+  align-items: center;
+}
+
+.routes li {
+  list-style: none;
+  font-size: 1.25rem;
+  border: 1px solid blueviolet;
+  padding: .5rem 1rem;
+  border-radius: 3px;
+  transition: all .25s ease-in-out;
+}
+
+.routes li a {
+  text-decoration: none;
+  color: blueviolet;
+  transition: all .25s ease-in-out;
+}
+
+.routes li:not(li:last-child) {
+  margin-right: 1.5rem;
+}
+
+.routes li:hover {
+  background: blueviolet;
+}
+.routes li:hover a {
+  color: white;
+}
